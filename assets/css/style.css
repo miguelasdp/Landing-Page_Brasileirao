@@ -149,9 +149,93 @@ main {
     padding: 0.8rem 1.5rem;
     cursor: pointer;
     transition: all ease-out 0.6s;
+    text-decoration: none;
+    color: white;
 }
 
 .premiere_texto .btn_premiere:hover {
     color: #003221;
     background-color: white;
+}
+
+.container_faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 3rem 0;
+    gap: 3rem;
+    width: 70%;
+}
+
+.container_faq h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.collapsible {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: "Lexend Zetta", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapsible img {
+    height: 2vh;
+}
+
+.arrow {
+    transition: transform 0.5s ease;
+}
+
+.content {
+    padding: 2rem;
+    display: none;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    word-break: break-word;
+}
+
+.content ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.content a {
+    color: #2e903c;
 }
