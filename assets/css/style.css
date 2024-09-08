@@ -83,6 +83,7 @@ main {
     width: 100%;
     height: 100%;
     padding: 1em;
+    background-color: white;
     background: url(/assets/img/background_times.svg);
     background-position: center;
     background-repeat: no-repeat;
