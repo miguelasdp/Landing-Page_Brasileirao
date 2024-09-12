@@ -93,7 +93,7 @@ main {
 
 .flex_times {
     width: 70%;
-    padding: 1em;
+    padding: 5rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
