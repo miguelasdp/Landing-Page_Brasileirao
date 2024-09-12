@@ -81,10 +81,8 @@ main {
 
 .times {
     width: 100%;
-    height: 100%;
-    padding: 1em;
     background-color: white;
-    background: url(/assets/img/background_times.svg);
+    background: url(/assets/img/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,19 +91,26 @@ main {
     align-items: center;
 }
 
-.grid_times {
-    display: grid;
+.flex_times {
+    width: 70%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(5, auto);
-    grid-template-rows: repeat(4, auto);
-    gap: 1rem;
+}
+
+.times_escudo {
+    flex: 1 0 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: none;
 }
 
 .times_escudo img {
-    width: 120px;
-    max-width: 100%;
-    height: 100px;
+    width: 150px;
+
 }
 
 .container_premiere {
@@ -209,6 +214,8 @@ main {
 
 .arrow {
     transition: transform 0.5s ease;
+    height: 20px;
+    max-height: 100%;
 }
 
 .content {
