@@ -35,4 +35,4 @@ Esta landing page foi desenvolvida como forma de estudos, juntando Web Design co
 
 ## Link do Projeto Hospedado:
 
-<a href="https://landingpagebrasileirao.netlify.app/" target="_blank">Landing Page Brasileirão 2024</a>
+<a href="https://landing-page-brasileirao.vercel.app/" target="_blank">Landing Page Brasileirão 2024</a>
