@@ -92,25 +92,22 @@ main {
 }
 
 .flex_times {
-    width: 70%;
-    padding: 5rem 0;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    padding: 5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 20%));
     justify-content: center;
     align-items: center;
 }
 
 .times_escudo {
-    flex: 1 0 20%;
     display: flex;
     justify-content: center;
     align-content: center;
-    box-sizing: none;
 }
 
 .times_escudo img {
     width: 150px;
-
 }
 
 .container_premiere {
