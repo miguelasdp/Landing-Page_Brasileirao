@@ -21,7 +21,6 @@ Esta landing page foi desenvolvida como forma de estudos, juntando Web Design co
 - **Perguntas Frequentes:** Fornece respostas rápidas para dúvidas comuns sobre o serviço:
   - Em quantos dispositivos posso assistir ao mesmo tempo?
   - Onde posso assistir o Premiere?
-  - Como posso assistir o Premiere pela internet?
   - Como faço para receber uma time da coração e melhorar meu clube?
 
 ## Tecnologias Utilizadas
