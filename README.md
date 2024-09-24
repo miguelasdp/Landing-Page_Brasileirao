@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Esta landing page foi desenvolvida como forma de estudos, juntando Web Design com um Hobby meu, o Futebol!
+Esta landing page foi desenvolvida como forma de estudo, juntando Web Design com um Hobby meu, o Futebol!
 
 ## Estrutura da Página
 
